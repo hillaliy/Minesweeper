@@ -1,0 +1,52 @@
+.game-name {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.score {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: x-large;
+}
+
+.score label,
+.score div {
+  display: inline-block;
+}
+
+.start-btn {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  font-size: x-large;
+}
+
+.restart-btn {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  font-size: x-large;
+}
+
+.game-board {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 780px;
+  height: 600px;
+  border: 5px solid black;
+  font-size: large;
+}
+
+.game-board button {
+  width: 30px;
+  height: 30px;
+}
